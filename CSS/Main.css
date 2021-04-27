@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(reset.css);
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 800px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+
+	color: blue;
+
+}
+
+.fa-youtube {
+
+	color: red;
+}
+
+.fa-github {
+	color: green;
+}
+
+.fa-linkedin {
+
+	color: blue;
+}
+
+
+html {
+	background-color: rgb(6, 108, 240);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1 {
+	font-size: 2rem;
+	color: rgb(34, 111, 179);
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	padding: 0 0 0 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	z-index: 3;
+
+
+}
+
+#logo {
+	border-radius: 50%;
+
+
+
+
+}
+
+#joeMain {
+
+	padding: 1rem 1rem 1rem;
+	border-radius: 50%;
+
+}
+
+#joeMain:hover {
+	transform: scaleX(-1);
+	
+	
+
+}
+
+
+.scrumTitle {
+	color: rgb(218, 218, 228);
+	padding: 0rem 1rem 0rem 51.9rem;
+	/* padding: 0 23rem; */
+	font-size: 23px;
+	font-weight: bold;
+
+}
+
+
+
+#banner nav ul {
+	text-align: center;
+}
+
+#banner nav li {
+	display: inline-block;
+	padding: 1.5rem 0.5rem;
+}
+
+#banner nav a {
+	color: rgb(26, 140, 240);
+	padding: 1.25rem 1.25rem;
+	border-style: hidden;
+	border-width: thin;
+	border-color: rgb(21, 132, 230);
+}
+
+#banner nav a:hover {
+	background-color: rgb(19, 131, 230);
+	color: rgb(151, 61, 61);
+	opacity: 0.5;
+}
+
+#mainpage {
+	padding: 3rem 3rem 3rem 3rem;
+	max-width: 850px;
+	margin: auto;
+}
+
+#welcome {
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-color: rgb(209, 212, 214);
+	color: rgb(211, 214, 218);
+	line-height: 1.8;
+	padding: 1rem 1rem;
+	font-size: 1.2rem;
+}
+
+
+#sitename {
+	color: rgb(24, 126, 214);
+}
+
+
+#joe {
+	font-size: 3rem;
+	color: rgb(186, 187, 250);
+
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+body {
+
+	background-image: url(../Images/background.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#joepic {
+	float: none;
+}
+
+
+
+#joebio {
+	color: rgb(186, 187, 250);
+	/* text-align: center; */
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#joediv {
+	/* min-height: 1100px; */
+	margin: auto;
+	padding: 5rem 0 0 0;
+	/* cursor: url("http://downloads.totallyfreecursors.com/cursor_files/marioraccoonani.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/marioraccoonani.gif"), auto; */
+}
+
+#joeexp {
+	color: rgb(186, 187, 250);
+	;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#joeempl {
+	color: rgb(186, 187, 250);
+	;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#joeproj {
+	color: rgb(186, 187, 250);
+	;
+	font-size: 30px;
+}
+
+#joeedu {
+	font-weight: bold;
+	color: rgb(186, 187, 250);
+	;
+	font-size: 30px;
+	/* text-align: center; */
+	/* padding: 0 10rem; */
+
+}
+
+#VideoTitle {
+	color: rgb(186, 187, 250);
+	font-weight: bold;
+	font-size: 2rem;
+
+}
+
+#videos {
+	color: rgb(186, 187, 250);
+	;
+
+}
+
+#gamesTag {
+	color: rgb(186, 187, 250);
+	;
+}
+
+#websiteTag {
+	color: rgb(186, 187, 250);
+	;
+}
+
+
+
+#back {
+	float: right;
+	color: steelblue;
+	font-style: italic;
+	color: rgb(186, 187, 250);
+	;
+	font-weight: bold;
+}
+
+#back:hover {
+	color: aliceblue;
+}
+
+.header_Background {
+	background-color: blue;
+}
